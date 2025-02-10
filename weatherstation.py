@@ -21,12 +21,12 @@ def write_database():  # Database Code
         pressure = data[6]
         date3 = data[7]
         db = mysql.connector.connect(user='Jonas',
-                                     password='Seelisches1',
+                                     password='...',
                                      host='192.168.10.165',
                                      database='easyweather')
         
         db2 = mysql.connector.connect(user='easyweather',
-                                     password='Seelisches1',
+                                     password='...',
                                      host='192.168.10.223',
                                      database='db_se')
 
